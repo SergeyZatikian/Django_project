@@ -1,0 +1,82 @@
+body {
+    background: #ffffff;
+}
+
+aside {
+    left: 100;
+    float: left;
+    background: #ffffff;
+    width: 240px;
+    padding: 2.5%;
+    height: 100vh;
+    color: #5C5C5C;
+    font-family: 'Open Sans';
+    border-right: 2px solid #000;
+
+}
+aside img{
+    width: 238px;
+    height: 545px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+
+aside h3{
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul {list-style: none;}
+aside .link{list-style: none;}
+aside ul li {
+    /* font: 'Open Sans' sans-serif;
+    font-size: bold; */
+    color: #858585;
+    display: block;
+    margin-top: 510px;
+    position: absolute;
+    left: 56px;
+
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #1846C7;
+    text-decoration: none;
+    transform: scale(1.05);     
+}
+nav .all_tags{
+    float: left;
+    color: #124435;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+
+main .features{
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+.alert-warning{
+    background-color: rgb(245, 188, 115);
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+
+.btn-danger, .btn-success {
+    width: 100px;    
+}
+
+
+main .features h1{font-size: 50px;}
+main .features p{max-width: 400px; margin: 20px auto;}
