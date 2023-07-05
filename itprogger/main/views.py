@@ -21,5 +21,5 @@ def kostya(request):
     return(render(request, 'main/kostya.html'))
 def my_itmo(request):
     return(render(request, 'main/my_itmo.html'))
-def be_itmo(request):
-    return(render(request, 'main/be_itmo.html'))
+def info_home(request):
+    return(render(request, 'main/info_home.html'))
